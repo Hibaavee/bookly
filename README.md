@@ -1,16 +1,24 @@
-# bookly
+BOOKLY
+Bookly is a Flutter app that allows users to search and browse books using data from the Open Library API, designed with a clean, responsive UI and built on MVVM architecture with Riverpod for efficient state management.
 
-A new Flutter project.
+> Features
+- Home screen with a grid of books (title, author, cover image)
+- Dynamic search with instant filtering
+- Book detail screen (title, author, publish year)
+- Loading indicator while fetching data
+- Error message display on API failure
+- Responsive UI with adaptive grid layout
+- State Management: Powered by Riverpod
+- Navigation between splash, home, and detail screens
 
-## Getting Started
+> API Used
+Open Library Search API:
+https://openlibrary.org/search.json?q=flutter
 
-This project is a starting point for a Flutter application.
+> Packages Used
+flutter_riverpod – State management
+cached_network_image – Image caching
+http – Networking
+flutter/material.dart – UI Framework
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
